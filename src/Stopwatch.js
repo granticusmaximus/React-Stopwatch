@@ -45,7 +45,7 @@ class Stopwatch extends Component {
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: 62 }}>
           {this.state.lapse} <br />
-          {hours < 10 ? "0" + hours : hours}h:{mins < 10 ? "0" + mins : mins}s
+          {hours < 10 ? "0" + hours : hours}m:{mins < 10 ? "0" + mins : mins}s
         </p>
         <button onClick={this.onStart}>
           {this.state.running ? (
